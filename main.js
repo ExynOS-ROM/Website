@@ -1,7 +1,7 @@
 import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import kostasUrl from './kostas.png';
+
 // Setup
 
 const scene = new THREE.Scene();
@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const kostasTexture = new THREE.TextureLoader().load(kostasUrl);
+const kostasTexture = new THREE.TextureLoader().load('./kostas.png');
 
 const kostas = new THREE.Mesh(new THREE.BoxGeometry(2, 2, 2), new THREE.MeshBasicMaterial({ map: kostasTexture }));
 
