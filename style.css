@@ -56,7 +56,8 @@ canvas {
   section {
     grid-column: 2 / 8;
     padding: 1rem;
-    background: var(--dark-bg);
+    /*background-image: url("assets/mesh-gradient-bg.png");*/
+    background: linear-gradient(to right, #f0c27b, #4b1248);
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
@@ -84,7 +85,7 @@ canvas {
   a:link, a:visited {
     background-color: white;
     color: black;
-    border: 2px solid orangered;
+    border: 2px solid rgb(0, 0, 0);
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
@@ -93,6 +94,6 @@ canvas {
   }
   
   a:hover, a:active {
-    background-color: orangered;
+    background-color: rgb(224, 99, 54);
     color: white;
   }
