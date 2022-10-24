@@ -57,12 +57,15 @@ canvas {
     grid-column: 2 / 8;
     padding: 1rem;
     /*background-image: url("assets/mesh-gradient-bg.png");*/
-    background: linear-gradient(to right, #232526, #414345);
+    /*background: linear-gradient(to right, #232526, #414345);*/
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
     min-width: 300px;
-    border-radius: 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(15px);
+    border: 3px solid hsl(60deg 73% 77%);
   }
 
   blockquote {
