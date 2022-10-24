@@ -67,7 +67,7 @@ scene.background = spaceTexture;
 
 const kostasTexture = new THREE.TextureLoader().load("assets/profile_pic_new-yellow.png");
 
-const kostas = new THREE.Mesh(new THREE.BoxGeometry(5, 5, 5), new THREE.MeshBasicMaterial({ map: kostasTexture }));
+const kostas = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: kostasTexture }));
 
 scene.add(kostas);
 
